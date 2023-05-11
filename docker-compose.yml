@@ -5,6 +5,6 @@ services:
     expose:
       - 3000
     environment:
-      - 'NODESERVER=fro" NodeSer''ver'
+      - "NODESERVER=from server"
     ports:
       - 3500:3000

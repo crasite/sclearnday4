@@ -7,4 +7,4 @@ services:
     environment:
       - "NODESERVER=from server"
     ports:
-      - 3500:3000
+      - "4500-4505:3000"

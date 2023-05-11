@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  backendx:
+    build: ./backend
+    expose:
+      - 3000
+    environment:
+      - NODESERVER=fromNodeServer
+    ports:
+      - 3500:3000
